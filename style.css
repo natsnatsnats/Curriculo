@@ -1,0 +1,85 @@
+/* Reset básico */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeff3;
+  color: #333;
+}
+
+/* Container central */
+.container {
+  background-color: #ffffff;
+  width: 70%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #B46FB2;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  margin: 10px 0 5px;
+  color: #4A3152;
+}
+
+.header p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* Links */
+.header a {
+  color: #B46FB2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Títulos das seções */
+h2 {
+  color: #BD6FB2;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Parágrafos */
+p {
+  line-height: 1.6;
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Destaque para cargos e projetos */
+b {
+  color: #2c3e50;
+}
+
+a{
+  text-decoration: none;
+}
